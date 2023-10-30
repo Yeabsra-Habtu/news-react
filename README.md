@@ -1,8 +1,28 @@
-# React + Vite
+# News Dashboard App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This is a News Dashboard application built with Vite and React. It allows users to fetch and display news data from a provided API, including headlines, icons, text, sources, hashtags, and more. Users can also filter news articles by category and search for specific keywords.
 
-Currently, two official plugins are available:
+## How to Run the Project
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Follow these steps to run the project on your local machine:
+
+### Prerequisites
+
+Before you begin, make sure you have Node.js and npm (Node Package Manager) installed on your system.
+
+- [Node.js](https://nodejs.org/)
+- [npm](https://www.npmjs.com/)
+
+### Clone the Repository
+
+1. Open your terminal and navigate to the directory where you want to clone the repository.
+2. Run the following command to clone the repository:
+
+```bash
+git clone <repository-url>
+
+cd news-dashboard-app
+
+npm install
+
+npm run dev
